@@ -1,5 +1,2 @@
-function sayHello(name) {
-    console.log("Hello " + name);
-}
-
-sayHello("george");
+var message = '';
+console.log(globalThis.message)
