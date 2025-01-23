@@ -1,2 +1,3 @@
-var message = '';
-console.log(globalThis.message)
+var logger = require('./logger');
+
+console.log(logger);
