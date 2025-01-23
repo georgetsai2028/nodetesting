@@ -1,4 +1,2 @@
-const log = require('./logger');
 
-
-log('message');
+require('path')
