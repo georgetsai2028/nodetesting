@@ -1,6 +1,7 @@
 
-const path = require('path');
+const fs = require('fs');
 
-var pathObj = path.parse(__filename);
-
-console.log(pathObj);
+fs.readdir('./', function(err, files){
+    if (err) console.log('Error', err);
+    else console.log('Result', files);
+});
